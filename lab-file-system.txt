@@ -31,7 +31,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
+C:\Users\Scorp\mtec1002
 
 
 ==========
@@ -42,7 +42,13 @@ $ ls
 
 Copy and paste the output below.
 ----------
+ Directory of C:\Users\Scorp\mtec1002
 
+09/03/2016  04:15 PM    <DIR>          .
+09/03/2016  04:15 PM    <DIR>          ..
+09/03/2016  04:15 PM    <DIR>          animals
+               0 File(s)              0 bytes
+               3 Dir(s)  928,126,578,688 bytes free
 
 
 ==========
@@ -53,7 +59,14 @@ $ ls
 
 Copy and paste the output below.
 ----------
+ Directory of C:\Users\Scorp\mtec1002
 
+09/03/2016  04:15 PM    <DIR>          .
+09/03/2016  04:15 PM    <DIR>          ..
+09/03/2016  04:15 PM    <DIR>          animals
+09/03/2016  04:15 PM    <DIR>          food
+               0 File(s)              0 bytes
+               4 Dir(s)  928,126,578,688 bytes free
 
 
 ==========
@@ -64,7 +77,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+nothing happens
 
 
 ==========
@@ -75,7 +88,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+nothing happens
 
 
 ==========
@@ -86,7 +99,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+C:\Users
 
 
 ==========
@@ -97,7 +110,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+C:\Users
 
  
 ==========
@@ -108,7 +121,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+C:\
 
 
 ==========
@@ -120,7 +133,13 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
+ Directory of C:\Users\Scorp\mtec1002
 
+09/03/2016  04:28 PM    <DIR>          .
+09/03/2016  04:28 PM    <DIR>          ..
+09/03/2016  04:15 PM    <DIR>          food
+               0 File(s)              0 bytes
+               3 Dir(s)  928,126,578,688 bytes free
 
 
 ==========
@@ -131,7 +150,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+nothing happens
 
 
 ==========
@@ -142,7 +161,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+nothing happens
 
 
 ==========
@@ -153,7 +172,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+nothing happens
 
 
 ==========
@@ -164,7 +183,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+nothing happens
 
 
 ==========
@@ -174,13 +193,20 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
-
+DESKTOP-L2H7V06
 
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
+the ls command 
+ Directory of C:\Users\Scorp\mtec1002
 
+09/03/2016  04:28 PM    <DIR>          .
+09/03/2016  04:28 PM    <DIR>          ..
+09/03/2016  04:15 PM    <DIR>          food
+               0 File(s)              0 bytes
+               3 Dir(s)  928,126,636,032 bytes free
 
 
 ==========
@@ -203,7 +229,8 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+the mkdir command 
+C:\Users\Scorp\mtec1002\pineapple\orange\strawbery\lemon>
 
 
 ==========
@@ -211,7 +238,7 @@ Use only one command to make all of these new directories.  Write what command y
 
 Write the command you used to create the directory below:
 ----------
-
+the mkdir command
 
 
 ==========
@@ -219,7 +246,13 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
+ Directory of C:\Users\Scorp\mtec1002\pineapple\orange\strawbery\lemon
 
+09/03/2016  04:44 PM    <DIR>          .
+09/03/2016  04:44 PM    <DIR>          ..
+09/03/2016  04:44 PM    <DIR>          aardvark
+               0 File(s)              0 bytes
+               3 Dir(s)  928,126,640,128 bytes free
 
 
 ==========
@@ -231,7 +264,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+th mkdir command
 
 
 ==========
@@ -239,7 +272,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+the cd command
 
 
 ==========
@@ -247,44 +280,45 @@ What command did you use?
 
 What command did you use?
 ----------
-
+the up command then moved up ^
 
 ==========
 24. What command is used to delete empty directories?
 ----------
-
+the rmdir command
 
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
-
+the pwd command 
 
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
-
+ls -a
 
 
 ==========
 27. What's the shortcut for home directory?
 ----------
-
+the cd command.
 
 
 ==========
 28. What's a pathname?
 ----------
-
+the name of a spacific directory.
 
 
 ==========
 29. What's a directory?
 ----------
-
+A directory is a folder or file.
 
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+C:\Users\Scorp\Downloads
