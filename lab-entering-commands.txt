@@ -8,8 +8,6 @@ Follow the instructions line-by-line.
 * "No output" or "nothing happens" are valid answers to any of the questions.
 ==========
 
-iuhiu
-
 ==========
 1. Open Terminal.  Type:
 
@@ -17,7 +15,28 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
+C:\Users\Scorp>dir
 
+ Directory of C:\Users\Scorp
+
+08/09/2016  02:46 PM    <DIR>          .
+08/09/2016  02:46 PM    <DIR>          ..
+10/27/2015  11:41 PM    <DIR>          3D Objects
+08/10/2016  02:18 PM    <DIR>          Contacts
+08/10/2016  02:18 PM    <DIR>          Desktop
+08/10/2016  02:18 PM    <DIR>          Documents
+09/02/2016  11:54 PM    <DIR>          Downloads
+08/10/2016  02:18 PM    <DIR>          Favorites
+08/10/2016  02:18 PM    <DIR>          Links
+08/10/2016  02:18 PM    <DIR>          Music
+03/20/2016  03:17 PM    <DIR>          OneDrive
+08/10/2016  02:18 PM    <DIR>          Pictures
+09/10/2015  05:27 PM    <DIR>          Roaming
+08/10/2016  02:18 PM    <DIR>          Saved Games
+08/10/2016  02:18 PM    <DIR>          Searches
+08/10/2016  02:18 PM    <DIR>          Videos
+               0 File(s)              0 bytes
+              16 Dir(s)  929,094,696,960 bytes free
 
 
 ==========
@@ -28,18 +47,34 @@ $ ls D<TAB>
 What happens?  Describe it below.
 ----------
 
+ Directory of C:\Users\Scorp\Desktop
+
+08/10/2016  02:18 PM    <DIR>          .
+08/10/2016  02:18 PM    <DIR>          ..
+10/31/2015  02:17 PM    <DIR>          documents
+03/16/2016  07:04 PM    <DIR>          New folder
+04/03/2016  04:37 PM    <DIR>          New folder (2)
+05/14/2016  04:25 PM    <DIR>          New folder (3)
+05/28/2016  01:00 PM    <DIR>          New folder (5)
+07/26/2016  03:29 PM    <DIR>          pics
+07/20/2016  02:45 PM    <DIR>          Songs
+01/01/2016  04:25 PM    <DIR>          videos
+10/29/2015  07:58 PM               835 YouTube.url
+              10 File(s)        399,087 bytes
+              10 Dir(s)  929,094,668,288 bytes free
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
+
 ----------
-
-
+"3D Objects"
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+'"3D Objects"' is not recognized as an internal or external command,
+operable program or batch file.
 
 
 ==========
@@ -49,7 +84,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+08/10/2016  02:18 PM    <DIR>          .
+08/10/2016  02:18 PM    <DIR>          ..
 
 
 ==========
@@ -59,7 +95,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+08/10/2016  02:18 PM    <DIR>          .
+08/10/2016  02:18 PM    <DIR>          ..
 
 
 ==========
@@ -69,7 +106,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+Documents
 
 
 ==========
@@ -79,7 +116,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+nothing happens
 
 
 ==========
@@ -89,7 +126,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+nothing happens
 
 
 ==========
@@ -100,36 +137,40 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
+ Directory of C:\Users\Scorp
+
+File Not Found
+
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+up 
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+ls -a and ls -l
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+tab
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+the ls command
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+ls Documents 
 
 
 ==========
@@ -139,7 +180,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+nothing happens
 
 
 ==========
@@ -149,7 +190,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
+foo
 
 
 ==========
@@ -159,3 +200,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+the command is ls, the flag is ls -a, the argument is Desktop, and prompt is $.
